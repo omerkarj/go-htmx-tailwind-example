@@ -16,7 +16,6 @@ help: Makefile
 init:
 	go mod init ${module}
 	go install github.com/cosmtrek/air@latest
-	asdf reshim golang
 
 ## vet: vet code
 .PHONY: vet
